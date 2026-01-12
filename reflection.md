@@ -5,8 +5,12 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 ## 1. What was broken when you started?
 
 - What did the game look like the first time you ran it?
+  1. It looked like a number guessing game.
 - List at least two concrete bugs you noticed at the start  
   (for example: "the secret number kept changing" or "the hints were backwards").
+
+  1. The hint to go higher or lower is severely inaccurate. For example if the secret code was 65, and I put 50, the hint will tell me to go lower. If my input as -50 for example it will also tell me to go lower, which isn't possible as that would be out of bounds (1-100) and I should not be going lower.
+  2. The button for "New Game" does not work. In order to restart you would need to refresh the page.
 
 ---
 
